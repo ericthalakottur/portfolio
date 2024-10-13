@@ -1,0 +1,13 @@
+<div class="flex flex-col h-screen justify-center">
+  <div class="max-w-full gap-8 md:gap-4 mx-auto">
+    <h1 class="text-white text-5xl font-bold">Hi,</h1>
+    <h2 class="my-2 text-slate-300 transition-colors duration-300 delay-300 ease-in-out hover:text-sky-400 text-3xl">I am Eric Thalakottur.</h2>
+    <div class="flex flex-col md:flex-row my-8 flex-wrap gap-8">
+      @for (social of socials; track social.name) {
+      <a href="{{ social.url }}" target="_blank" class="shrink md:w-40 bg-blue-500 text-white text-center p-2 rounded-md transition delay-150 ease-in-out hover:bg-sky-500">
+        {{ social.name }}
+        </a>
+      }
+    </div>
+  </div>
+</div>
