@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { Social } from './social';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+    selector: 'app-home',
+    imports: [],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   socials: Social[] = [
